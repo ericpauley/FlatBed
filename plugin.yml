@@ -1,0 +1,4 @@
+name: FlatBed
+main: zonedabone.FlatBed.FlatBed
+version: 1.0.0
+load: startup
