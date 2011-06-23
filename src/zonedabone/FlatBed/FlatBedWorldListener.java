@@ -22,7 +22,7 @@ public class FlatBedWorldListener extends WorldListener {
 			FlatBed.chunks.setProperty(path, true);
 			for(int x = 0;x<16;x++){
 				for(int z = 0;z<16;z++){
-					chunk.getBlock(x, 1, z).setType(Material.BEDROCK);
+					chunk.getBlock(x, 0, z).setType(Material.BEDROCK);
 					for(int y = 1;y<5;y++){
 						Block block = chunk.getBlock(x, y, z);
 						if(block.getType()==Material.BEDROCK){
